@@ -1,0 +1,14 @@
+#card_1{
+    margin-top: 5rem;
+}
+.bg-page2>div{
+    position: relative;
+}
+#bg-page3>div>div>div{
+    margin-bottom: 100px;
+}
+.bg-page1{
+    background:url("../image/bg_2.jpg");
+    background-attachment: fixed;
+}
+

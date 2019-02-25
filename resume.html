@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./boot/css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./boot/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="stylesheet" href="./css/phone.css" media="screen and (max-width:767px)">
+    <script src="./js/resume.js"></script>
+</head>
+<body>
+    <div class="bg-page1" id="bg-page1">
+        <div class="container">
+            <header>
+                <div class=" main_color row opacity fix">
+                    <div class="col-6">
+                        <img src="image/wechat_xzl.png" alt="">
+                        <span class="line-center text-white font-weight-bold">Welcome to 鲜兆伦 's Resume</span>
+                    </div>
+                    <span id="date" class="text-white col-6 text-center line-center"></span>
+                </div>
+            </header>
+            <div class="mt-10 opacity w-75 radius-1 p-3 ml-4 card-bg" id="card_1">
+                <div class="border-hover w-100 text-center radius-1 m-auto line-center">
+                    <h1 class="line-center  font-weight-bold p-2">鲜兆伦</h1>
+                    <p class="line-center font-weight-bold">web前端工程师</p>
+                    <p>leslieKeng@foxmail.com</p>
+                    <span class="d-inline-block">
+                        <img src="./image/wechat.png" alt="" class="btn">
+                        <img src="./image/qq.png" alt="" class="btn">
+                        <img src="./image/phone.png" alt="" class="btn">
+                    </span>
+                </div>
+            </div>
+            <div class="w-25 btn-dark">
+                <img src="./image/wec_xzl.png" alt="" class="position-absolute hidden">
+                <img src="./image/qq_xzl.png" alt="" class="position-absolute hidden">
+            </div>
+            <ul class="list-unstyled position-fixed fixed h-50">
+                <li><a href="#bg-page1"><img src="./image/icon.png" alt="" class="cur_page"></a></li>
+                <li><a href="#bg-page2"><img src="./image/icon.png" alt=""></a></li>
+                <li><a href="#bg-page3"><img src="./image/icon.png" alt=""></a></li>
+                <li><a href="#bg-page4"><img src="./image/icon.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="bg-page2" class="bg-page1">
+        <div class="container">
+            <div class="text-center mb-5">
+                <img src="./image/leslie.png" alt="" class="rounded-circle mt-5">
+            </div>
+            <div class="w-75 m-auto text-white p-3 border border-dark rounded btn-dark">
+                <p>
+                    你好，我叫鲜兆伦，毕业于重庆电讯职业学院计算机与传媒系软件设计专业，
+                我正在努力成为一名优秀的前端工程师的人，我热爱这个职业，珍惜这份工作。渴望学习，进步，希望以后能在前端开发方面有更深入的研究。
+                </p>
+            </div>
+            <div class="m-3 w-75 m-auto" id="parent">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#a1" data-toggle="collapse" class="card-link">我的个人信息</a>
+                    </div>
+                    <div class="collapse" id="a1" data-parent="#parent">
+                        <div class="card-body">
+                            <table class="w-100 text-center border">
+                                <tr>
+                                    <td>姓名:</td>
+                                    <td>鲜兆伦</td>
+                                    <td>性别:</td>
+                                    <td>男</td>
+                                    <td>年龄:</td>
+                                    <td>20</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#a2" data-toggle="collapse" class="card-link">技能掌握</a>
+                    </div>
+                    <div class="collapse" id="a2" data-parent="#parent">
+                        <div class="card-body">
+                            <ul class="float-left m-1 list-unstyled">
+                                <li>html:</li>
+                                <li>css:</li>
+                                <li>js:</li>
+                                <li>node:</li>
+                            </ul>
+                            <div class="progress m-2">
+                                <div class="progress-bar-striped bg-secondary w-75"></div>
+                            </div>
+                            <div class="progress m-2">
+                                <div class="progress-bar-striped bg-warning w-80"></div>
+                            </div>
+                            <div class="progress m-2">
+                                <div class="progress-bar-striped bg-danger w-70"></div>
+                            </div>
+                            <div class="progress m-2">
+                                <div class="progress-bar-striped bg-success w-70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#a3" data-toggle="collapse" class="card-link">教育背景</a>
+                    </div>
+                    <div class="collapse" id="a3" data-parent="#parent">
+                        <div class="card-body">
+                            <table class="w-100 text-center border">
+                                <tr>
+                                    <td>毕业院校:</td>
+                                    <td>重庆电讯职业学院</td>
+                                    <td>专业:</td>
+                                    <td>软件开发_网站建设方向</td>
+                                    <td>毕业时间:</td>
+                                    <td>2019.6</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#a4" data-toggle="collapse" class="card-link">个人理想</a>
+                    </div>
+                    <div class="collapse" id="a4" data-parent="#parent">
+                        <div class="card-body">
+                            希望能够向一名全栈式工程师发展，能够在互联网行业扎稳脚跟，努力学习当前更新潮，更前沿的技术，不能故步自封，跟随时代潮流。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bg-page3" class="bg-page1">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-6 col-lg-3  mt-2">
+                    <div><img src="./image/leslie.jpg" alt=""class="w-75 rounded"></div>
+                    <div class="opacity_block text-center rounded w-75">
+                        <a href="#" class=""><img src="./image/github.png" alt="" class="m-2"></a>
+                        <h6>这是我的第一个项目</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-2">
+                    <div><img src="./image/leslie.jpg" alt=""class="w-75 rounded"></div>
+                    <div class="opacity_block text-center rounded w-75">
+                        <a href="#"><img src="./image/github.png" alt="" class="m-2"></a>
+                        <h6>这是我的第二个项目</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-2">
+                    <div><img src="./image/leslie.jpg" alt=""class="w-75 rounded"></div>
+                    <div class="opacity_block text-center rounded w-75">
+                        <a href="#"><img src="./image/github.png" alt="" class="m-2"></a>
+                        <h6>这是我的第三个项目</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-2">
+                    <div><img src="./image/leslie.jpg" alt=""class="w-75 rounded"></div>
+                    <div class="opacity_block text-center rounded w-75">
+                        <a href="#"><img src="./image/github.png" alt="" class="m-2"></a>
+                        <h6>这是我的第四个项目</h6>
+                    </div>
+                </div>
+            </div>
+             <div class="row mt-lg-5">
+                <p class="col-12 text-white">项目一地址:<a href="http://lesliechueng.applinzi.com/resume.html" class="ml-2 text-white">http://lesliechueng.applinzi.com </a></p>
+                <p class="col-12 text-white">项目一地址:<a href="http://lesliechueng.applinzi.com" class="ml-2 text-white">http://lesliechueng.applinzi.com </a></p>
+                <p class="col-12 text-white">项目一地址:<a href="http://lesliechueng.applinzi.com" class="ml-2 text-white">http://lesliechueng.applinzi.com </a></p>
+                <p class="col-12 text-white">项目一地址:<a href="http://lesliechueng.applinzi.com" class="ml-2 text-white">http://lesliechueng.applinzi.com </a></p>
+                <div class="rotate_1 col-4">
+                    <div class="m-auto"><img src="./image/vue.jpg" alt="" class="w-75"></div>
+                    <div class="m-auto"><img src="./image/hh.png" alt="" class="w-75"></div>
+                </div>
+                <div class="rotate_1 col-4">
+                    <div class="m-auto"><img src="./image/boot.jpg" alt="" class="w-75"></div>
+                    <div class="m-auto"><img src="./image/hh.png" alt="" class="w-75"></div>
+                </div>
+                <div class="rotate_1 col-4">
+                    <div class="m-auto"><img src="./image/angular.jpg" alt="" class="w-75"></div>
+                    <div class="m-auto"><img src="./image/hh.png" alt="" class="w-75"></div>
+                </div>
+                <div class="rotate_1 col-4">
+                    <div class="m-auto"><img src="./image/react.jpg" alt="" class="w-75"></div>
+                    <div class="m-auto"><img src="./image/hh.png" alt="" class="w-75"></div>
+                </div>
+                <div class="rotate_1 col-4">
+                    <div class="m-auto"><img src="./image/wechat.jpg" alt="" class="w-75"></div>
+                    <div class="m-auto"><img src="./image/hh.png" alt="" class="w-75"></div>
+                </div>
+                <div class="rotate_1  col-4">
+                    <div class="m-auto"><img src="./image/jQuery.jpg" alt="" class="w-75"></div>
+                    <div class="m-auto"><img src="./image/hh.png" alt="" class="w-75"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div  id="bg-page4"  class="bg-page1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 m-5 line-center">
+                        <h4 class="text-dark">我的联系方式：</h4>
+                        <span class="text-dark">phone:</span>
+                        <input type="phone" class="input-group-text opacity_block" name="phone" placeholder="155-2330-2994">
+                        <span class="text-dark">email:</span>
+                        <input type="email" class="input-group-text opacity_block" name="email" placeholder="leslieKeng@foxmail.com">
+                        <span class="text-dark">QQ:</span>
+                        <input type="text" class="input-group-text opacity_block" name="email" placeholder="1505187751">
+                        <span class="text-dark">wechat:</span>
+                        <input type="text" class="input-group-text opacity_block" name="email" placeholder="AA1505187751">
+                        <span class="text-dark">github:</span>
+                        <input type="text" class="input-group-text opacity_block" name="email" placeholder="">
+                        <input type="submit" value="提交信息" class="btn m-5">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
